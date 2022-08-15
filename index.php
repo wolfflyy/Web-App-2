@@ -50,7 +50,7 @@
                        
                    }
                    
-                   $get_slides = "select * from slider LIMIT 1,3";
+                   $get_slides = "select * from slider";
                    
                    $run_slides = pg_query($db,$get_slides);
                    
